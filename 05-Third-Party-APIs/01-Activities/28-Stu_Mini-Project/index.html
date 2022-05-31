@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class=>
+    <div class="jumbotron bg-primary flex">
+      <h1 class="display-4">Project Tracker</h1>
+      <h2 id="todaysDate"></h2>
+    </div>
+    <div class="card ml-3" style="width: 18rem">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input
+          type="email"
+          class="form-control"
+          id="nameInput"
+          placeholder="First Name Last Name"
+        /></li>
+        <li class="list-group-item"><div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Project Name</label
+        >
+        <select id="projectName" class="form-select" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">Refectoring</option>
+          <option value="2">Bug Fixes</option>
+          <option value="3">New Project</option>
+        </select>
+      </div></li>
+        <li class="list-group-item"><div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Hourly Rate</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="hourlyRate"
+          placeholder="$200"
+        />
+      </div></li>
+      </ul>
+      <div class="card-footer"><div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Estimated Hours</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="estHours"
+          placeholder="65"
+        />
+      </div>
+    <div class="card-footer">
+        <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Launch Info</label
+        >
+        <button id="startButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">PUSH ME</button>       
+      </div>
+      
+    </div class="position-absolute bottom-50 end-50"></div>>
+   
+    </div>
+     <table class="table">
+    <thead>
+        <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Project Name</th>
+      <th scope="col">Hourly Rate</th>
+      <th scope="col">Total Cost</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td id="name1"></td>
+              <td id="projectName1"></td>
+                <tdv id="totalCost1"></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+             <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+        </table>
+</body>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#dialog").dialog();
+    });
+  </script>
+  <script src="./script.js"></script>
+</html>

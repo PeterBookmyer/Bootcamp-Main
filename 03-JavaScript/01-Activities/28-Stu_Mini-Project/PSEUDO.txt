@@ -1,0 +1,16 @@
+++ - operator will add 1
+
+math.floor()   math.random()
+
+R,P,S array
+
+R beats S
+S beats P
+P beats R 
+S ties S
+R ties R 
+P ties P
+
+function using math.floor to randomly select array object
+
+readLine(prompt)

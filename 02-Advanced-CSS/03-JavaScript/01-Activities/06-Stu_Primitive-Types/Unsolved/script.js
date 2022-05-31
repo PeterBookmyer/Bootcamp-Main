@@ -1,0 +1,33 @@
+// assigns variables
+
+var one = 64;
+var two = "656302";
+var three = false;
+var four = 64.55;
+var five = "Howdy!";
+var six;
+
+// Insert comments to explain what each console log below will log to the console
+
+// Logs typeof number, string, boolean (not value)
+
+console.log(typeof one); 
+console.log(typeof two); 
+console.log(typeof three); 
+console.log(typeof four); 
+console.log(typeof five);
+console.log(typeof six);
+
+// reassigns variable
+
+four = "Hello!";
+five = false;
+six = 23;
+
+// Insert comments to explain what each console log below will log to the console
+
+// re-logs Number, string, boolean values based on variables
+
+console.log(typeof four);
+console.log(typeof five);
+console.log(typeof six);

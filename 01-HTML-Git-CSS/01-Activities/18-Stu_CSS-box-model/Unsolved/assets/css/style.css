@@ -1,0 +1,17 @@
+section {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border: 15px solid black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 10px 20px;
+  background-color: blue;
+  padding: 10px;
+  background-color: purple;
+  border: 10px solid rgb(211, 30, 30);
+}
